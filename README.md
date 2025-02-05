@@ -6,7 +6,7 @@ An all-in-one extendable console, gui menu &amp; on-screen widget framework for 
 
 ## Notable Features:
 - Customizable Commands
-> *Execute any function in your scripts and pass-in unlimited parameters such as floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources*
+> *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources*
 - Console
 > *Automatically displays built-in Unity Logs & offers a manual way of executing commands*
 - Console Autofill
