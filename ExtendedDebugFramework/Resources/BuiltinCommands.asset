@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f804b4d5773145a4a8e7bd126c0acfe7, type: 3}
+  m_Name: BuiltinCommands
+  m_EditorClassIdentifier: 
+  commands:
+  - command: '?'
+    description: List all registered commands
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Help
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 0
+  - command: scene.restart
+    description: Reload application from the first scene
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Restart
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: scene.reset
+    description: Reload currently active scene
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Reset
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: scene.load
+    description: Loads a scene. string can name or index, bool is additive y/n
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_SceneLoad
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments:
+    - name: name/index
+      arg: 4
+      required: 1
+    - name: Additive?
+      arg: 0
+      required: 0
+    ShowGUI: 1
+  - command: scene.load
+    description: Loads a scene. string can name or index
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_SceneLoadShort
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments:
+    - name: name/index
+      arg: 4
+      required: 1
+    ShowGUI: 0
+  - command: scene.list
+    description: Lists all avaliable scenes
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_SceneList
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: placeresource
+    description: Instantiates asset from path in the resources folder
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_LoadResource
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments:
+    - name: filepath
+      arg: 4
+      required: 1
+    ShowGUI: 1
+  - command: debug.screenlog
+    description: Display unity logs on screen as text widgets
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_VisualLog
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.showfps
+    description: Toggle an fps counter
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_ToggleFps
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.showpos
+    description: Display camera information
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_ToggleCamPos
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.buildinfo
+    description: Displays build info as widgets on screen
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_BuildInfo
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.clearwidgets
+    description: Destroys all widget objects
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_ClearWidgets
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.cmdcleanup
+    description: Removes all runtime commands from registry
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_ClearRuntimeCmd
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: debug.reregister
+    description: Re-registers all commands, may fix GUI issues
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Reregister
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: togglecursor
+    description: Swaps cursor re-enable value
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_ToggleCursor
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: clear
+    description: Clears the in-game console
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Clear
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
+  - command: quit
+    description: Closes the application
+    action:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1189686176632609234, guid: e2530b55b27618b4cb227f3c5a6aa15e,
+            type: 3}
+          m_TargetAssemblyTypeName: ExtendedDebugFramework.EDF_BuiltinCommands, ExtDebugFramework
+          m_MethodName: Cmd_Quit
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    arguments: []
+    ShowGUI: 1
