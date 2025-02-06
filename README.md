@@ -18,7 +18,7 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 > *Suggestions based on what you have typed will appear, pressing LEFT ALT will cycle options, pressing TAB will autofill based on selection.*
 > *This also describes any extra command parameters.*
 - GUI Panel
-> *All commands get automatically parsed into submenus & buttons to be easily accessed through the UI, maintaining full functionality.*
+> *All commands get parsed into submenus & buttons to be easily accessed through the UI, maintaining full functionality.*
 - On-Screen Widgets
 > *Easily add custom UI prefabs to the screen at any moment which persist across all scenes with 10 different anchor points.*
 - Release Stripping
