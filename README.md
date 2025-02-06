@@ -22,7 +22,7 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 - On-Screen Widgets
 > *Easily add custom UI prefabs to the screen at any moment which persist across all scenes with 10 different anchor points.*
 - Release Stripping
-> *All debugging features become fully inacessible upon making a non-development build. No changes need to be made on your end to ensure the end-user cannot access your tools.*
+> *All debugging features become fully inacessible upon making a non-development build. No changes need to be made by developers to ensure the end-user cannot access your tools.*
 - Automatic Deployment
 > *No prefabs, scripts, or setup is needed for this framework to function, simply import the package to your project and enter playmode. Works in any scene & persists through destructive loading.*
 - Runtime command registering
