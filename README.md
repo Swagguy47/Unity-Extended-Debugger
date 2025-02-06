@@ -8,6 +8,8 @@ Created as a successor to:
 https://github.com/Swagguy47/Unity-Debugging-Framework
 
 ## Notable Features:
+- Works in most projects
+> *Created to utilize Unity's built-in UI & swap between both input methods, meaning no external dependancies are required.*
 - Customizable Commands
 > *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources*
 - Console
