@@ -11,14 +11,14 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 - Works in most projects
 > *Created to utilize Unity's built-in UI & swap between both input methods, meaning no external dependancies are required.*
 - Customizable Commands
-> *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources*
+> *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources.*
 - Console
-> *Automatically displays built-in Unity Logs & offers a manual way of executing commands*
+> *Automatically displays Unity Logs & offers a manual way of executing commands.*
 - Console Autofill
 > *Suggestions based on what you have typed will appear, pressing LEFT ALT will cycle options, pressing tab will autofill based on selection.*
-> *This also describes any extra command parameters*
+> *This also describes any extra command parameters.*
 - GUI Panel
-> *All commands get automatically parsed into submenus & buttons to be easily accessed through the UI, maintaining full functionality*
+> *All commands get automatically parsed into submenus & buttons to be easily accessed through the UI, maintaining full functionality.*
 - On-Screen Widgets
 > *Easily add custom UI prefabs to the screen at any moment which persist across all scenes with 10 different anchor points.*
 - Release Stripping
@@ -27,4 +27,4 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 > *No prefabs, scripts, or setup is needed for this framework to function, simply import the package to your project and enter playmode. Works in any scene & persists through destructive loading.*
 - Runtime command registering
 > **[This aspect is still under active development, and may not function fully as intended]**
-> Create new commands during runtime and the framework automatically repopulates all fields with the new content, useful for dyanamic pages/command collections
+> *Create new commands during runtime and the framework automatically repopulates all fields with the new content, useful for dyanamic pages/command collections.*
