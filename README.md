@@ -15,7 +15,7 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 - Console
 > *Automatically displays Unity Logs & offers a manual way of executing commands.*
 - Console Autofill
-> *Suggestions based on what you have typed will appear, pressing LEFT ALT will cycle options, pressing tab will autofill based on selection.*
+> *Suggestions based on what you have typed will appear, pressing LEFT ALT will cycle options, pressing TAB will autofill based on selection.*
 > *This also describes any extra command parameters.*
 - GUI Panel
 > *All commands get automatically parsed into submenus & buttons to be easily accessed through the UI, maintaining full functionality.*
