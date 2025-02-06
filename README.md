@@ -1,5 +1,5 @@
 # Unity-Extended-Debug-Framework
-An all-in-one extendable console, gui menu &amp; on-screen widget framework for debugging Unity projects.
+An all-in-one extendable console, GUI menu &amp; on-screen widget framework for debugging Unity projects.
 
 ![image](https://github.com/user-attachments/assets/c0a5400e-547c-4310-86c5-fabc02917a2d)
 *(note: Some commands shown in preview are specific to that project and do not come packaged)*
