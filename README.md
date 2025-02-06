@@ -20,3 +20,6 @@ An all-in-one extendable console, gui menu &amp; on-screen widget framework for 
 > *All debugging features become fully inacessible upon making a non-development build. No changes need to be made on your end to ensure the end-user cannot access your tools.*
 - Automatic Deployment
 > *No prefabs, scripts, or setup is needed for this framework to function, simply import the package to your project and enter playmode. Works in any scene & persists through destructive loading.*
+- Runtime command registering
+> **[This aspect is still under active development, and may not function fully as intended]**
+> Create new commands during runtime and the framework automatically repopulates all fields with the new content, useful for dyanamic pages/command collections
