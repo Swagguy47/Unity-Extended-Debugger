@@ -13,7 +13,7 @@ https://github.com/Swagguy47/Unity-Debugging-Framework
 - Customizable Commands
 > *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources.*
 - Console
-> *Automatically displays Unity Logs & offers a manual way of executing commands.*
+> *Displays Unity Logs & offers a manual way of executing commands.*
 - Console Autofill
 > *Suggestions based on what you have typed will appear, pressing LEFT ALT will cycle options, pressing TAB will autofill based on selection.*
 > *This also describes any extra command parameters.*
