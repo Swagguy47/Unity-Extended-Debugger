@@ -4,6 +4,9 @@ An all-in-one extendable console, GUI menu &amp; on-screen widget framework for 
 ![image](https://github.com/user-attachments/assets/c0a5400e-547c-4310-86c5-fabc02917a2d)
 *(note: Some commands shown in preview are specific to that project and do not come packaged)*
 
+Created as a successor to:
+https://github.com/Swagguy47/Unity-Debugging-Framework
+
 ## Notable Features:
 - Customizable Commands
 > *Execute any function in your scripts and pass-in unlimited parameters such as booleans, floats, strings or integers. All detected & added to registry on startup. Multiple ScriptableObects can be loaded from anywhere in the project's resources*
